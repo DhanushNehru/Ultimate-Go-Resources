@@ -10,12 +10,13 @@ func AddTask(task Task) error {
 		return err
 	}
 
-	// Assign ID
-	if len(tasks) == 0 {
-		task.ID = 1
-	} else {
-		task.ID = tasks[len(tasks)-1].ID + 1
+	maxID := 0
+	for _, t := range tasks {
+		if t.ID > maxID {
+			maxID = t.ID
+		}
 	}
+	task.ID = maxID + 1
 
 	tasks = append(tasks, task)
 	return SaveTasks(tasks)
