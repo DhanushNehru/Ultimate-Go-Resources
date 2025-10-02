@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Buy groceries",
+    "status": "pending",
+    "due": "2025-10-05",
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "title": "Read Go tutorial",
+    "status": "pending",
+    "due": "2025-10-07",
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "title": "Write blog post",
+    "status": "completed",
+    "due": "2025-09-30",
+    "priority": "low"
+  },
+  {
+    "id": 4,
+    "title": "Exercise",
+    "status": "pending",
+    "due": "",
+    "priority": "high"
+  }
+]
