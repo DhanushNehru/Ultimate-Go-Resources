@@ -14,17 +14,14 @@ const (
 )
 
 func PrintSuccess(message string) {
-	fmt.Println(string(ColorGreen), message, string(ColorReset))
+	fmt.Printf("%s%s%s\n", ColorGreen, message, ColorReset)
 }
-
 func PrintError(message string) {
-	fmt.Println(string(ColorRed), message, string(ColorReset))
+	fmt.Printf("%s%s%s\n", ColorRed, message, ColorReset)
 }
-
 func PrintInfo(message string) {
-	fmt.Println(string(ColorYellow), message, string(ColorReset))
+	fmt.Printf("%s%s%s\n", ColorYellow, message, ColorReset)
 }
-
 func ValidateDate(dateStr string) bool {
 	if dateStr == "" {
 		return false
