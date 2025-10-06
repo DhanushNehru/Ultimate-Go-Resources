@@ -1,0 +1,33 @@
+name: Issue Auto Reply
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post welcome comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.payload.issue.number;
+            const message = `
+            👋 **Thank you for raising this issue!**  
+            Our team will review it soon.  
+
+            💬 For queries, discussions, or approval of requests, please join our Discord server:  
+            👉 [Discord Link](https://discord.com/invite/Yn9g6KuWyA)
+            `;
+
+            await github.rest.issues.createComment({
+              issue_number: issueNumber,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: message
+            });
