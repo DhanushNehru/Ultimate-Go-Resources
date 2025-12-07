@@ -1,5 +1,9 @@
 # Ultimate Go Resources
 
+<img width="1600" height="840" alt="Ultimate Golang Resources" src="https://github.com/user-attachments/assets/2364b0ce-f189-4311-8441-d5f0aa648eb1" />
+
+<a href="https://www.producthunt.com/products/ultimate-golang-resources?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-ultimate&#0045;golang&#0045;resources" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=992783&theme=light&t=1752676381336" alt="Ultimate&#0032;Golang&#0032;Resources - A&#0032;curated&#0032;list&#0032;of&#0032;collection&#0032;of&#0032;Go&#0032;projects&#0032;and&#0032;resources&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 <div align="center">
   
 [![Join Our Discord](https://img.shields.io/badge/Discord-Join%20Server-blue?logo=discord&style=for-the-badge)](https://discord.com/invite/Yn9g6KuWyA)
@@ -7,10 +11,6 @@
 [![Subscribe to Newsletter](https://img.shields.io/badge/Newsletter-Subscribe-orange?style=for-the-badge)](https://dhanushn.substack.com/)
 
 </div>
-
-<img width="1600" height="840" alt="Ultimate Golang Resources" src="https://github.com/user-attachments/assets/2364b0ce-f189-4311-8441-d5f0aa648eb1" />
-
-<a href="https://www.producthunt.com/products/ultimate-golang-resources?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-ultimate&#0045;golang&#0045;resources" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=992783&theme=light&t=1752676381336" alt="Ultimate&#0032;Golang&#0032;Resources - A&#0032;curated&#0032;list&#0032;of&#0032;collection&#0032;of&#0032;Go&#0032;projects&#0032;and&#0032;resources&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 # 📖 Documentation
 - 🔗 Official GoLang Docs: [Go Dev](https://go.dev/)
